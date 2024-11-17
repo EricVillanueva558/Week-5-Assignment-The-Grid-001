@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif:400,400i,700|Roboto+Condensed:400,700|Roboto+Mono&display=swap');
+/*
+	font-family: 'Roboto Condensed', sans-serif;
+	font-family: 'Roboto Mono', monospace;
+	font-family: 'Noto Serif', serif;
+*/
+
+a:link, a:visited {
+    color: blue; /* Blue text for links */
+}
+
+a:focus, a:hover {
+    background-color: #ddddff; /* Light blue hover effect */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: underline; /* Underline on hover */
+    transition-duration: 0.2s; /* Smooth transition effect */
+    transition-property: background; /* Applies to background change */
+}
+
+body {
+    font-family: 'Noto Serif', serif; /* Serif font for readability */
+    font-size: 18px; /* Base font size */
+}
+
+h1, h2 {
+    font-family: 'Roboto Condensed', sans-serif; /* Modern sans-serif font */
+    letter-spacing: 0.05em; /* Add slight spacing for readability */
+    margin: 1.5rem auto; /* Center-align margins */
+    text-align: center; /* Center-align the text */
+}
+
+h1 {
+	font-size: 3rem; /*Large font size for main headings */
+}
+
+h2 {
+    font-size: 2.25rem; /* Slightly smaller for subheadings */
+}
+
+header {
+	text-align: center; /* Center-align the text */
+}
+
+header, footer {
+    text-align: center; /* Center-align the text */
+}
+
+main {
+    width: 50%; /* Occupies 1/2 of the main container's width */
+    background-color: #fce4ec; /* Light pink background */
+    padding: 1rem; /* Add padding for spacing */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+nav {
+    width: 25%; /* Occupies 1/4 of the main container's width */
+    background-color: #e0f7fa; /* Light cyan background */
+    padding: 1rem; /* Add padding for spacing */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+aside {
+    width: 25%; /* Occupies 1/4 of the main container's width */
+    background-color: #ffebee; /* Light red background */
+    padding: 1rem; /* Add padding for spacing */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+p {
+    line-height: 140%; /* Sets the vertical spacing between lines of text to 140% of the font size, improving readability. */
+    margin-bottom: 1em; /* Adds space equivalent to 1 'em' (relative to the font size) below each paragraph, ensuring proper separation between paragraphs. */
+}
+
+#intro {
+    font-size: 22px; /* Sets the font size of the element with the ID "intro" to 22 pixels, making its text larger for emphasis or improved readability. */
+}
+
+#footer-container {
+    width: 100%; /* Full width */
+    background-color: #e3f2fd; /* Light blue background */
+    padding: 1rem; /* Add padding for spacing */
+    color: #0288d1; /* Blue text color */
+    text-align: center; /* Center-align the text */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+#header-container {
+    width: 100%; /* Full width */
+    background-color: #fff3e0; /* Light orange background */
+    padding: 1rem; /* Add padding for spacing */
+    text-align: center; /* Center-align the text */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+#main-container {
+    display: flex; /* Flexbox for row layout */
+    justify-content: space-between; /* Equal space between columns */
+    width: 100%; /* Full width of the page */
+    margin: 0 auto; /* Center the main container */
+    box-sizing: border-box; /* Include padding in the element's width */
+}
